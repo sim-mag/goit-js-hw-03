@@ -5,7 +5,7 @@ function slugify(title) {
     .join("-"); // adding "-" between words
 }
 
-console.log(slugify("These are the results of Task 1")); // :)
+console.log(slugify("These are the results of Task 1 :)")); // :)
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
 console.log(slugify("English for developer")); // "english-for-developer"

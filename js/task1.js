@@ -1,9 +1,8 @@
 function slugify(title) {
-
-    return title
-        .toLowerCase() // convert to lowercase
-        .split(' ') // array of words
-        .join('-'); // adding "-" between words
+  return title
+    .toLowerCase() // convert to lowercase
+    .split(" ") // array of words
+    .join("-"); // adding "-" between words
 }
 
 console.log(slugify("These are the results of Task 1")); // :)
